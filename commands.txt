@@ -1,0 +1,5 @@
+create image
+docker build -t workerapp:latest . 
+
+create container
+docker run workerapp:latest
